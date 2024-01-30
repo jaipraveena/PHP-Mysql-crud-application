@@ -1,0 +1,20 @@
+PHP MYSQL CRUD Application
+
+This php crud application shows that the database functions that are CREATE, READ, UPDATE and DELETE. 
+For CRUD application,
+
+we have to create the following pages.
+
+1.index.php
+2.add.php
+3.edit.php
+4.delete.php
+
+To establish database connection:
+$connection = mysqli_connect(“localhost”,”root”,””);
+
+
+To select database:
+$db = mysqli_select_db($connection,”dbcrud”);    this line explains how to connect with mysql and php
+
+$db = mysqli_select_db($connection,”dbcrud”);    this line explains to select database
